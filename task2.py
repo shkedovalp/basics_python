@@ -7,4 +7,4 @@ sec = time % 60
 hour = time // 3600
 minutes = (time - hour * 3600) // 60
 
-print(f'{hour}:{minutes}:{sec}')
+print(f'{hour:02}:{minutes:02}:{sec:02}')
